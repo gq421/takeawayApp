@@ -1,0 +1,369 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-08 11:22:47
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-13 22:08:03
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 1rem;
+	background: -webkit-linear-gradient(left,#ffc500,#ffa22e);
+}
+header .pos{
+	width: 1.34rem;
+	height: 100%;
+	float: left;
+	color: #fff;
+	text-align: center;
+	line-height: 1rem;
+}
+header .pos p{
+	font-size: 0.3rem;
+}
+header input{
+	float: left;
+	width: 4.76rem;
+	height: 0.36rem;
+	background: #fff;
+	border-radius: 0.3rem;
+	border: none;
+	margin:0.33rem 0 0 0.10rem;
+	padding-left: 0.2rem;
+	outline: none;
+	position: relative;
+}
+input::-webkit-input-placeholder{
+	font-size: 0.22rem;
+	color: #b0b0b0;
+}
+header .search{
+	width: 0.3rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0.36rem;
+	right: 1.45rem;
+}
+header i{
+	width: 0.3rem;
+	height: 0.3rem;
+	display: block;
+	float: left;
+	margin-top: 0.36rem;
+	margin-left: 0.42rem;
+	color: #fff;
+}
+header .iconfont{
+	font-size: 0.3rem;
+}
+.banner{
+	width: 100%;
+	height: 3.5rem;
+	/*background-image: url('../image/banner.png');*/
+	/*background-position: bottom center;*/
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	position: relative;
+}
+.banner .tu{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container{
+	width: 100%;
+	height: 3.5rem;
+}
+.banner img{
+	width: 100%;
+	height: 3.5rem;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.banner .spot{
+	position: absolute;
+	width: 1.58rem;
+	height: 0.33rem;
+	left: 2.96rem;
+	bottom: 0.12rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around ;
+	padding-top: 0.04rem;
+}
+.banner .spot .spot1{
+	width: 0.25rem;
+	height: 0.25rem;
+	border-radius: 50%;
+	background: #ffa42b;
+}
+.banner .spot .ash{
+	background: #d9d9d9;
+}
+nav{
+	width: 100%;
+	height: 4.02rem;
+}
+nav .container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0.24rem 0;
+}
+nav .container ul{
+	width: 100%;
+	height: 1.8rem;
+	background: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+}
+nav .container ul li{
+	width: 1.32rem;
+	height: 100%;
+	font-size: 0.26rem;
+	text-align: center;
+	color: #7f7f7f;
+}
+nav .container ul li img{
+	width: 1.32rem;
+	height: 1.32rem;
+}
+.banner1{
+	width: 100%;
+	height: 1.58rem;
+}
+.banner1 img{
+	display: block;
+	width: 2.67rem;
+	height: 1.08rem;
+	margin: 0 auto;
+}
+.recommemd{
+	width: 100%;
+	height: 3.66rem;
+	margin-bottom: 0.2rem;
+}
+.recommemd .container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.recommemd .container .rec{
+	width: 3.51rem;
+	height: 100%;
+}
+.recommemd .container .rec:nth-child(2){
+	display: flex;
+	flex-direction: column;
+}
+.recommemd .container .rec li{
+	width: 100%;
+	height: 1.83rem;
+}
+.recommemd .container .rec img{
+	display: block;
+	width: 3.51rem;
+	height: 3.66rem;
+}
+.recommemd .container .rec li img{
+	display: block;
+	width: 3.51rem;
+	height: 1.83rem;
+}
+.banner2{
+	width: 100%;
+	height: 1.58rem;
+}
+.banner2 img{
+	display: block;
+	width: 4.22rem;
+	height: 1.08rem;
+	margin: 0 auto;
+}
+.box{
+	width: 100%;
+	height: 0.68rem;
+}
+.box .container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between ;
+}
+.box .container li{
+	width: 1.44rem;
+	height: 0.5rem;
+	border-radius: 0.3rem;
+	border: 0.05rem solid #ff6700;
+}
+.box .container li span{
+	display: block;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #7f7f7f;
+}
+.list{
+	width: 100%;
+}
+.list .container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+.list .container .box1{
+	width: 100%;
+	height: 2.54rem;
+	margin-bottom: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 8px 15px rgba(255, 163, 45, 0.6);
+}
+.list .container .box1 .first{
+	width: 1.78rem;
+	height: 100%;
+	padding: 0.31rem 0 0.23rem 0;
+}
+.list .container .box1 .first img{
+	width: 1.78rem;
+	height: 2rem;
+}
+.list .container .box1 .two{
+	width: 5.24rem;
+	height: 2.54rem;
+	padding: 0.28rem 0.1rem 0.23rem 0.2rem;
+}
+.list .container .box1 .two h4{
+	font-size: 0.28rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+
+}
+.list .container .box1 .two .des{
+	font-size: 0.22rem;
+	color: #ff6700;
+}
+.list .container .box1 .two .des i{
+	font-size: 0.22rem;
+	color: #cfcfce;
+}
+.list .container .box1 .two .des span{
+	font-size: 0.22rem;
+	color: #36393e;
+}
+.list .container .box1 .two .song{
+	font-size: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+}
+.list .container .box1 .two .song li{
+	color: #36393e;
+}
+.list .container .box1 .two .song li i{
+	font-size: 0.22rem;
+}
+.list .container .box1 .two hr{
+	background-color: #36393e;
+	margin: 0.1rem 0;
+}
+.list .container .box1 .two .shou{
+	height: 0.36rem;
+	color: #36393e;
+	font-size: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.15rem;
+}
+.list .container .box1 .two .shou .shou1{
+	width: 2.9rem;
+	height: 0.36rem;
+	display: flex;
+	flex-direction: row;
+}
+.list .container .box1 .two .shou .shou1 p{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.list .container .box1 .two .shou li{
+	width: 1.2rem;
+	height: 0.36rem;
+	display: block;
+	line-height: 0.36rem;
+}
+.list .container .box1 .two .shou  li img{
+	width: 0.34rem;
+	height: 0.34rem;
+}
+.list .container .box1 .two .shou  li i{
+	font-size: 0.3rem;
+}
+.list .container .box1 .two .vip{
+	width: 4rem;
+	height: 0.4rem;
+	font-size: 0.22rem;
+	color: #36393e;
+}
+.list .container .box1 .two .vip .iconfont{
+	font-size: 0.3rem;
+	color: yellow;
+}
+.list .container .box1:nth-child(5){
+	margin-bottom: 1.25rem;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	border-top: 1px solid #ffc203;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+footer .container{
+	width: 7.02rem;
+	height: 1rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.1rem;
+	
+}
+footer .container li{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+	position: relative;
+	padding-left: 0.05rem;
+}
+footer .container li i{
+	position: absolute;
+	font-size: 0.65rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #727477;
+}
+footer .container li .ico{
+	color: #ffc203;
+}
+footer .container li a{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+}

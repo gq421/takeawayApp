@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,uesr-scalatle=no">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/zhuce.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="sign in.html" class="register">登录</a>
+		</div>
+	</header>
+	<div class="box"></div>
+	<div class="box1">
+		<div class="list">
+			<div class="dian"><span>.</span>&nbsp;<span>.</span>&nbsp;<p>UERNAME</p></div>
+			<div class="name">
+				<img src="image/in1.png" alt="">
+				<div class="uear">
+					<input type="text">
+					<img src="image/zhuci2.png" alt="" class="check">
+				</div>
+				<p>(请输入手机号或账号)</p>
+			</div>
+		</div>	
+		<div class="list">
+			<div class="dian"><span>.</span>&nbsp;<span>.</span>&nbsp;<p>UERNAME</p></div>
+			<div class="name">
+				<img src="image/zhuci.png" alt="">
+				<div class="uear">
+					<input type="password">
+					<img src="image/in4.png" alt="">
+				</div>
+				<button class="dao">获取验证码</button>
+			</div>
+		</div>
+		<div class="list">
+			<div class="dian"><span>.</span>&nbsp;<span>.</span>&nbsp;<p>UERNAME</p></div>
+			<div class="name">
+				<img src="image/in2.png" alt="">
+				<div class="uear">
+					<input type="password">
+					<img src="image/in4.png" alt="">
+				</div>
+				<p>(请输入密码)</p>
+			</div>
+		</div>
+		<img src="image/zhuci1.png" alt="" class="in10">
+		<img src="image/zhuci3.png" alt="" class="in10">
+	</div>
+	<a class="in" >注册</a>
+</body>
+</html>
+<script>
+	let input=document.querySelectorAll("input");
+	let go=document.querySelector(".in");
+	let img=document.querySelectorAll(".in10");
+	let dui=document.querySelector(".check");
+	console.log(input,go,img);
+	go.onclick=function(){
+		if(input[0].value=="123456"  &&  input[1].value=="123456" && input[2].value=="123456"){
+			go.href="index.html";
+		}
+         else if(input[0].value!="123456"){
+        	img[0].style.display="block";
+        }
+        else if(input[0].value=="123456" && input[1].value=="123456" && input[2].value!="123456"){
+        	img[1].style.display="block";
+        }
+	}
+	input[2].onblur=function(){
+		go.style.background="#fb9b29";
+	}
+	input[0].onblur=function(){
+				if (input[0].value=="123456") {
+        	dui.style.display="block";
+        	}
+        }
+</script>

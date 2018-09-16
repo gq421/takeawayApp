@@ -1,0 +1,456 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-09 09:51:40
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-09-13 14:53:03
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 2.61rem;
+	background: -webkit-linear-gradient(left,#ffc500,#ffa22e);
+	position: fixed;
+	top: 0;
+}
+.container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+header .container .top{
+	width: 6.75rem;
+	height: 0.65rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+header .container .top .box{
+	height: 0.65rem;
+	width: 0.55rem;
+	padding-top: 0.15rem;
+}
+header .container .top .box img{
+	width: 0.2rem;
+	height: 0.35rem;
+	display: block;
+	margin: 0 auto;
+}
+header .container .top .box1{
+	height: 0.65rem;
+	width: 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.15rem;
+}
+header .container .top .box1 img{
+	width: 0.35rem;
+	height: 0.35rem;
+	display: block;
+	margin: 0 auto;
+}
+header .container .two{
+	width: 100%;
+	height: 1.96rem;
+	display: flex;
+	flex-direction: row;
+}
+header .container .two .logo{
+	width: 2.04rem;
+	height: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+	margin-right: 0.08rem;
+}
+header .container .two .logo img{
+	width: 1.54rem;
+	height: 1.54rem;
+}
+header .container .two ul{
+	width: 4.93rem;
+	height: 100%;
+}
+header .container .two ul h6{
+	color: #fff;
+	width: 3.63rem;
+	height: 0.45rem;
+	font-size: 0.3rem;
+	border-bottom: 1px dotted #fbfbfb;
+	font-weight: normal;
+}
+header .container .two ul p{
+	color: #fff;
+	width: 4.56rem;
+	font-size: 0.22rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-bottom: 0.08rem;
+}
+header .container .two ul .xing{
+	width: 1.92rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.05rem;
+}
+header .container .two ul .xing .bit{
+	height: 0.22rem;
+	width: 1.23rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .container .two ul .xing .bit img{
+	width: 0.2rem;
+	height: 0.2rem;
+	display: block;
+}
+header .container .two ul .xing .branch{
+	width: 0.44rem;
+	height: 0.22rem;
+	border-radius: 0.3rem;
+	background-color: #fff;
+	font-size: 0.16rem;
+	line-height: 0.22rem;
+	text-align: center;
+	color: #ffb119;
+}
+header .container .two ul li{
+	font-size: 0.16rem;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.1rem;
+}
+header .container .two ul .li1{
+	margin-bottom: 0;
+}
+header .container .two ul li .reduce{
+	width: 0.8rem;
+	height: 0.35rem;
+	border-radius: 0.3rem;
+	border: 2px solid #e2194d;
+	font-size: 0.16rem;
+	color: #e2194d;
+	line-height: 0.3rem;
+	text-align: center;
+}
+main{
+	width: 100%;
+	height: 100%;
+	margin-top: 2.61rem;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+}
+main .left{
+	width: 2.37rem;
+	height: 7.14rem;
+}
+main .left li{
+	width: 100%;
+	height: 1.02rem;
+	background: #ededed;
+	font-size: 0.3rem;
+	line-height: 1.02rem;
+	text-align: center;
+}
+main .left li:nth-child(3){
+	box-shadow: -0.05rem -0.06rem 0.08rem 0 #e2194d;
+}
+main .right{
+	width: 5.04rem;
+	height: 9.73rem;
+	padding: 0.28rem 0.24rem 0;
+	overflow: scroll;
+}
+main .right .list1{
+	width: 4.56rem;
+	height: 1.63rem;
+	margin-bottom: 0.42rem;
+	box-shadow: 0 0.04rem 0.1rem 0.08rem rgba(253, 156, 20, 0.6);
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+main .right .list1 .box1{
+	width: 1.52rem;
+	height: 100%;
+	padding: 0.18rem;
+}
+main .right .list1 .box1 img{
+	width: 1.16rem;
+	height: 1.27rem;
+}
+main .right .list1 .box2{
+	width: 3.04rem;
+	height: 100%;
+	padding: 0.18rem 0 0.1rem;
+	position: relative;
+}
+main .right .list1 .box2 h5{
+	font-size: 0.24rem;
+}
+main .right .list1 .box2 span{
+	font-size: 0.12rem;
+	display: block;
+	width: 2.6rem;
+	height: 0.12rem;
+	color: #333;
+	line-height: 0.12rem;
+}
+main .right .list1 .box2 .p1{
+	display: block;
+	width: 2.35rem;
+	font-size: 0.18rem;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	margin-bottom: 0.15rem;
+}
+main .right .list1 .box2 .yue{
+	width: 1.6rem;
+	height: 0.52rem;
+}
+main .right .list1 .box2 .yue .yue1{
+	width: 2rem;
+	font-size: 0.18rem;
+}
+main .right .list1 .tu{
+	width: 0.38rem;
+	height: 0.38rem;
+	position: absolute;
+	right: 0;
+	top: -0.19rem;
+}
+main .right .list1 .tu1{
+	width: 0.38rem;
+	height: 0.38rem;
+	position: absolute;
+	right: 0.7rem;
+	top: -0.19rem;
+	display: none;
+}
+main .right .list1 .sp{
+	color: #e2194d;
+	font-size: 0.28rem;
+	position: absolute;
+	right: 0.45rem;
+	top: -0.19rem;
+	display: none;
+}
+main .right .list1 .box2 .p2{
+	font-size: 0.35rem;
+	color: #e2194d;
+	position: absolute;
+	right: 0;
+	bottom: 0.35rem
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #443b3c;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 0 0rem 0.1rem 0.02rem rgba(253, 156, 20, 0.6);
+	z-index: 999;
+}
+footer .container{
+	display: flex;
+	flex-direction: row-reverse;
+}
+footer .cart{
+	width: 1.1rem;
+	height: 1.1rem;
+	border-radius: 50%;
+	background: #5d5151;
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0.24rem;
+	padding-top: 0.25rem;
+}
+footer .cart img{
+	display: block;
+	width: 0.7rem;
+	height: 0.65rem;
+	margin: 0 auto;
+}
+footer .container .cart1{
+	width: 5.6rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+footer .container .cart1 .list{
+	width: 1.9rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	display: none;
+}
+footer .container .cart1 .list .last{
+	height: 0.25rem;
+	display: flex;
+	flex-direction: row;
+	width: 3rem;
+}
+footer .container .cart1 .list .last p{
+	color: #e2194d;
+	line-height: 0.38rem;
+	width: 2.5rem;
+}
+footer .container .cart1 .list p{
+	display: block;
+	width: 2rem;
+	color: #e2194d;
+	font-size: 0.18rem;
+}
+footer .container .cart1 .list .last span{
+	width: 0.5rem;
+	display: block;
+	font-size: 0.24rem;
+	color: #e2194d;
+	text-align: center;
+}
+footer .container .cart1 .list1{
+	width: 1.93rem;
+	height: 100%;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 1rem;
+	text-align: center;
+	background:#5d5151;
+	position: absolute;
+	right: 0.24rem;
+}
+footer .container .cart1 .list2{
+	width: 1.9rem;
+	height: 100%;
+	position: absolute;
+	top: 10px;
+}
+footer .container .cart1 .list2 p{
+	color: #b1b0ae;
+	font-size: 0.22rem;
+}
+.clear{
+	width: 100%;
+	height: 13.62rem;
+	background-color: rgba(255, 255, 255, 0.6);
+	position: fixed;
+	top: 0;
+	display: none;
+}
+.clear .box{
+	width: 5.58rem;
+	height: 5.50rem;
+	background: #ffd428;
+	margin: 0 auto;
+	margin-top: 4.47rem;
+	border-radius: 0.3rem;
+	position: relative;
+}
+.clear .box img{
+	display: block;
+	width: 100%;
+	height: 3.52rem;
+}
+.clear .box .box1{
+	width: 3rem;
+	height: 1.98rem;
+	margin-left: 0.28rem;
+	padding-top: 0.15rem;
+}
+.clear .box .box1 h5{
+	font-size: 0.3rem;
+	color: #333;
+}
+.clear .box .box1 p{
+	width: 2.85rem;
+	font-size: 0.22rem;
+	color: #36393e;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 0.15rem;
+}
+.clear .box .box1 .sec{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.15rem;
+}
+.clear .box .box1 .sec img{
+	width: 0.28rem;
+	height: 0.28rem;
+	display: block;
+	margin-right: 0.15rem;
+}
+.clear .box .main{
+	width: 100%;
+	height: 1.98rem;
+	display: flex;
+	flex-direction: row;
+}
+.clear .box .box1 .sec span{
+	font-size: 0.24rem;
+	color: #fb285f;
+	margin-right: 0.15rem;
+}
+.clear .box .box1 .money{
+	display: flex;
+	flex-direction: row;
+	width: 2rem;
+}
+.clear .box .box1 .money i{
+	font-size: 0.24rem;
+	color: #fb285f;
+	display: block;
+	width: 4.5rem;
+	display: flex;
+	flex-direction: row;
+}
+.clear .box .box1 .monry span{
+	display: block;
+}
+.clear .box .box1 .money p{
+	font-size: 0.16rem;
+	color: #fb285f;
+	line-height: 0.43rem;
+}
+.clear .box .main a{
+	display: block;
+	width: 1.45rem;
+	height: 0.57rem;
+	border-radius: 0.3rem;
+	background: #fff;
+	font-size: 0.3rem;
+	color: #e2194d;
+	line-height: 0.57rem;
+	text-align: center;
+	margin-left: 0.5rem;
+	margin-top: 1.1rem;
+}
+.clear .box .guan{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 25px;
+	color: #fb285f;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}

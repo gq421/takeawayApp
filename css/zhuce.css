@@ -1,0 +1,168 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-14 12:56:44
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-09-12 18:47:20
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-image: url('../image/in9.png');
+	background-size: 100% 100%;
+}
+.container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 1.32rem;
+	padding-top: 0.4rem;
+	padding-right: 0.5rem;
+}
+header .container{
+	display: flex;
+	flex-direction: row-reverse;
+}
+header .register{
+	display: block;
+	width: 1.83rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background-color: #ffcf2b;
+	font-size: 0.35rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+}
+
+.box{
+	width: 4.94rem;
+	height: 1rem;
+	background-color: #fb9b29;
+	border-radius: 0.3rem;
+	margin: 0 auto;
+	margin-top: 3.4rem;
+}
+.box1{
+	width: 5.64rem;
+	height: 3.53rem;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	margin: 0 auto;
+	margin-top: -0.75rem;
+	padding: 0.26rem 0 0 0.16rem;
+	margin-bottom: 2rem;
+	position: relative;
+}
+.box1 .list{
+	height: 1.1rem;
+}
+.box1 .dian{
+	height: 0.26rem;
+	font-size: 0.4rem;
+	line-height: 0.26rem;
+	color: #fb9b29;
+	display: flex;
+	flex-direction: row;
+	/* margin-bottom: 0.1rem; */
+}
+.box1 .dian span{
+	font-size: 0.4rem;
+	margin-top: -0.11rem;
+	color: #fa1b50;
+}
+.box1 .dian p{
+	font-size: 0.18rem;
+	color: #ffdb35;
+	line-height: 0.26rem;
+}
+.box1 button{
+	margin-left: 0.1rem;
+	width: 1.41rem;
+	height: 0.51rem;
+	border: 0;
+	border-radius: 0.1rem;
+	background-color: #f21e51;
+	font-size: 0.2rem;
+	color: #fff;
+}
+.box1 .name{
+	height: 0.5rem;
+	padding-left: 0.6rem;
+	display: flex;
+	flex-direction: row;
+}
+.box1 .name img{
+	width: 0.38rem;
+	height: 0.4rem;
+	display: block;
+	margin-right: 0.1rem;
+	margin-top: 0.06rem;
+}
+.box1 .name .uear{
+	width: 2.6rem;
+	border-bottom: 1px solid #333;
+	display: flex;
+	flex-direction: row;
+}
+.box1 .name .uear input{
+	display: block;
+	height: 0.48rem;
+	width: 2.3rem;
+	border: none;
+	outline: none;
+}
+.box1 .name .uear img{
+	width: 0.3rem;
+	height: 0.19rem;
+	margin-top: 0.2rem;
+}
+.box1 .name .uear .check{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-top:0.1rem;
+	display: none;
+}
+.box1 .name p{
+	font-size: 0.18rem;
+	color: #333;
+	line-height: 0.5rem;
+	margin-top: 0.1rem;
+}
+.in{
+	display: block;
+	width: 3.6rem;
+	height: 0.74rem;
+	border-radius: 0.5rem;
+	background-color: #3d3d3d;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.74rem;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 0.3rem;
+}
+.in10{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 150px;
+	height: 22px;
+	display: none;
+}

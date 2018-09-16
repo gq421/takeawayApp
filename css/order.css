@@ -1,0 +1,234 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-12 18:17:36
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-13 22:25:14
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 1.06rem;
+	background: linear-gradient(to right,#ffc500,#ffa22e);
+	margin-bottom: 0.3rem;
+}
+.container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+header .container .top{
+	width: 6.75rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+header .container .top img{
+	margin-right: 1.5rem;
+	margin-left: 2.3rem;
+	margin-top: 0.3rem;
+	width: 2rem;
+	height: 0.45rem;
+}
+header .container .top .box{
+	height: 0.65rem;
+	width: 0.55rem;
+	padding-top: 0.15rem;
+}
+header .container .top .box img{
+	width: 0.35rem;
+	height: 0.35rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+.title{
+	width: 100%;
+	height: 1rem;
+}
+.title .container h5{
+	font-size: 0.3rem;
+	color: #ffa22e;
+	margin-left: 0.2rem;
+}
+.title .container p{
+	font-size: 0.24rem;
+	color: #ffa22e;
+	margin-left: 0.2rem;
+}
+.box{
+	width: 100%;
+	height: 3.41rem;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0.4rem;
+}
+.box .list{
+	width: 2.48rem;
+	height: 100%;
+	border-radius: 0.2rem;
+	box-shadow: 0 0.03rem 0.08rem 0.05rem rgba(252, 208, 89, 0.4);
+	margin-right: 0.34rem;
+	padding-top: 1.62rem;
+}
+.box .list:nth-child(1){
+	background-image: url('../image/order1.png');
+	background-size: 100% 1.62rem;
+	background-repeat: no-repeat;
+}
+.box .list:nth-child(2){
+	background-image: url('../image/order2.png');
+	background-size: 100% 1.62rem;
+	background-repeat: no-repeat;
+}
+.box .list:nth-child(3){
+	margin-right: 0rem;
+	background-image: url('../image/order3.png');
+	background-size: 100% 1.62rem;
+	background-repeat: no-repeat;
+}
+.box .list .tit{
+	width: 1.3rem;
+	height: 0.56rem;
+	border-bottom: 0.02rem dotted #515151;
+	font-size: 0.3rem;
+	color: #333;
+	line-height: 0.56rem;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.box .list p{
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	margin-bottom: 0.05rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.box .list .jian{
+	width: 1.04rem;
+	margin: 0 auto;
+}
+.box .list .jian p{
+	font-size: 0.2rem;
+	color: #ff1753;
+}
+.box .list .jian p span{
+	font-size: 0.2rem;
+	color: #ff1753;
+}
+main{
+	width: 100%;
+	height: 1.38rem;
+	margin-bottom: 0.3rem;
+}
+main .container{
+	box-shadow: 0 0.03rem 0.08rem 0.05rem rgba(252, 208, 89, 0.4);
+	display: flex;
+	flex-direction: row;
+}
+main .container img{
+	width: 1.9rem;
+	height: 100%;
+	display: block;
+	margin-right: 0.27rem;
+}
+main .container .nav{
+	width: 2.93rem;
+	height: 100%;
+	padding-top: 0.2rem;
+}
+main .container .nav h5{
+	width: 1.8rem;
+	height: 0.45rem;
+	border-bottom: 1px dotted #515151;
+	font-size: 0.28rem;
+	color: #333;
+}
+main .container .nav p{
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.6);
+	margin-bottom: 0.08rem;
+}
+main .container .nav ul{
+	display: flex;
+	flex-direction: row;
+}
+main .container .nav ul li{
+	font-size: 0.18rem;
+	color: #ff1753;
+	margin-right: 0.1rem;
+}
+main .container .sub{
+	width: 1.82rem;
+	height: 100%;
+	padding: 0.1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+main .container .sub li{
+	width: 1.64rem;
+	height: 0.54rem;
+	border-radius: 0.3rem;
+	box-shadow: 0 0.04rem 0.03rem 0.03rem rgba(255, 23, 83, 0.4);
+	font-size: 0.24rem;
+	color: #ff1753;
+	line-height: 0.54rem;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	border-top: 1px solid #ffc203;
+	position: fixed;
+	bottom: 0;
+	background: #fff;
+}
+footer .container{
+	width: 7.02rem;
+	height: 1rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.1rem;
+	
+}
+footer .container li{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+	position: relative;
+	padding-left: 0.05rem;
+}
+footer .container li i{
+	position: absolute;
+	font-size: 0.65rem;
+	line-height: 0.8rem;
+	text-align: center;
+	color: #727477;
+}
+footer .container li .ico{
+	color: #ffc203;
+}
+footer .container li a{
+	display: block;
+	width: 0.8rem;
+	height: 0.8rem;
+}

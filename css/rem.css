@@ -1,0 +1,49 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-08 11:17:44
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-08 11:19:17
+*/
+/* 媒体查询：查询屏幕的最小宽 */
+@media screen and  (min-width:360px){
+	html{
+				/* calc自动计算 */
+		font-size: calc(360/750*100px);
+		}
+}
+@media screen and  (min-width:375px){
+	html{
+				/* calc自动计算 */
+		font-size: calc(375/750*100px);
+	}
+}
+@media screen and  (min-width:412px){
+	html{
+				/* calc自动计算 */
+		font-size: calc(412/750*100px);
+	}
+}
+@media screen and  (min-width:414px){
+	html{
+				/* calc自动计算 */
+		font-size: calc(414/750*100px);
+	}
+}
+@media screen and  (min-width:750px){
+	html{
+				/* calc自动计算 */
+		font-size: calc(750/750*100px);
+	}
+}
+@media screen and  (min-width:768px){
+	html{
+				/* calc自动计算 */
+		font-size: calc(768/750*100px);
+	}
+}
+@media screen and  (min-width:1024px){
+	html{
+				/* calc自动计算 */
+		font-size: calc(1024/750*100px);
+	}
+}

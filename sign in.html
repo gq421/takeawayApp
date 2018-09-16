@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,uesr-scalatle=no">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/sign in.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="zhuce.html" class="register">注册</a>
+		</div>
+	</header>
+	<div class="head">
+		<img src="image/in.png" alt="">
+	</div>	
+	<div class="title">安东尼</div>
+	<div class="box"></div>
+	<div class="box1">
+		<div class="list">
+			<div class="dian"><span>.</span>&nbsp;<span>.</span>&nbsp;<p>UERNAME</p></div>
+			<div class="name">
+				<img src="image/in1.png" alt="">
+				<div class="uear">
+					<input type="text" >
+					<img src="image/in5.png" alt="">
+				</div>
+				<p>(请输入手机号或账号)</p>
+			</div>
+		</div>	
+		<div class="list">
+			<div class="dian"><span>.</span>&nbsp;<span>.</span>&nbsp;<p>UERNAME</p></div>
+			<div class="name">
+				<img src="image/in2.png" alt="">
+				<div class="uear">
+					<input type="password" >
+					<img src="image/in4.png" alt="">
+				</div>
+				<p>(请输入密码)</p>
+			</div>
+		</div>
+		<img src="image/in10.png" alt="" class="in10">
+		<img src="image/in11.png" alt="" class="in10">
+	</div>
+	<div class="pass">
+		<img src="image/in3.png" alt="">
+		<p>忘记密码</p>
+	</div>
+	<a class="in" >登录</a>
+	<div class="title1">
+		<img src="image/in6.png" alt="">
+		<p>PLEASE SELECT THIRD PARTY LOGIN</p>
+	</div>
+	<div class="logo">
+		<div class="qq">
+			<img src="image/in7.png" alt="">
+			<img src="image/in8.png" alt="">
+		</div>	
+	</div>
+</body>
+</html>
+<script>
+	let input=document.querySelectorAll("input");
+	let go=document.querySelector(".in");
+	let img=document.querySelectorAll(".in10");
+	console.log(input,go,img);
+	go.onclick=function(){
+		if(input[0].value=="123456"  &&  input[1].value=="123456"){
+			go.href="index.html";
+        }else if (input[0].value!="123456") {
+        	img[0].style.display="block";
+        }else if(input[0].value=="123456" && input[1].value!="123456"){
+        	img[1].style.display="block";
+        }
+	}
+	input[1].onblur=function(){
+		go.style.background="#fb9b29";
+	}
+</script>

@@ -1,0 +1,146 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-14 17:31:02
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-14 17:58:46
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: PingFangSC-Regular, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 1.06rem;
+	background: linear-gradient(to right,#ffc500,#ffa22e);
+	margin-bottom: 0.3rem;
+}
+.container{
+	width: 7.02rem;
+	height: 100%;
+	margin: 0 auto;
+}
+header .container .top{
+	width: 6.75rem;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+header .container .top img{
+	margin-left: 1.3rem;
+	margin-top: 0.3rem;
+	width: 3.5rem;
+	height: 0.45rem;
+}
+header .container .top .box{
+	display: block;
+	height: 0.65rem;
+	width: 0.55rem;
+	padding-top: 0.15rem;
+}
+header .container .top .box img{
+	width: 0.2rem;
+	height: 0.35rem;
+	display: block;
+	margin: 0 auto;
+}
+.list{
+	height: 1.2rem;
+	width: 100%;
+}
+.list .ka{
+	width: 6.21rem;
+	height: 100%;
+	margin: 0 auto;
+	background: #ffbf07;
+	border-radius: 0.3rem;
+	padding: 0.3rem 0.23rem;
+	display: flex;
+	flex-direction: row;
+}
+.list .ka .loge{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-right: 0.33rem;
+}
+.list .ka .loge img{
+	width: 0.55rem;
+	height: 0.55rem;
+	display: block;
+}
+.list .ka .hao{
+	width: 4rem;
+}
+.list .ka .hao h6{
+	font-size: 0.26rem;
+	color: #fff;
+}
+.list .ka .hao span{
+	display: block;
+	font-size: 0.26rem;
+	color: #fff;
+}
+main{
+	width: 100%;
+	height: 1.88rem;
+	margin-bottom: 1rem;
+}
+main .money{
+	width: 5.68rem;
+	height: 100%;
+	margin: 0 auto;
+	border-bottom: 0.02rem dotted #f81b50;
+	padding-top: 0.5rem;
+}
+main .money ul{
+	width: 2.72rem;
+	height: 1.08rem;
+	margin: 0 auto;
+}
+main .money ul .mon{
+	font-size: 0.3rem;
+	color: #f81b50;
+	text-align: center;
+}
+main .money ul span{
+	font-size: 0.4rem;
+	color: #f81b50
+}
+main .money ul p{
+	font-size: 0.24rem;
+	color: #f81b50;
+	text-align: center;
+}
+.title{
+	height: 0.6rem;
+	width: 100%;
+}
+.title h6{
+	font-size: 0.26rem;
+	color: #d4d4d4;
+	text-align: center;
+}
+.title h5{
+	font-size: 0.26rem;
+	color: #3a414a;
+	text-align: center;
+}
+.finger{
+	display: block;
+	margin: 0 auto;
+}
+img{
+	display: block;
+	width: 4.10rem;
+	height: 5.96rem;
+	margin: 0 auto;
+}
