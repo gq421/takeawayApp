@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2018-08-14 17:31:02
 * @Last Modified by:   lenovo
-* @Last Modified time: 2018-08-14 17:58:46
+* @Last Modified time: 2018-09-18 17:41:43
 */
 *{
 	padding: 0;
@@ -52,6 +52,7 @@ header .container .top .box img{
 	height: 0.35rem;
 	display: block;
 	margin: 0 auto;
+	margin-left: 0;
 }
 .list{
 	height: 1.2rem;

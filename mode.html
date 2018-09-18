@@ -53,23 +53,23 @@
 					<ul class="last1">
 						<li class="kuai">
 							<p>账户余额</p>
-							<img src="image/mode6.png" alt="">
+							<div class="dui">✔</div>
 						</li>
 						<li class="kuai">
 							<p>支付宝</p>
-							<img src="image/mode6.png" alt="">
+							<div class="dui">✔</div>
 						</li>
 						<li class="kuai">
 							<p>微信支付</p>
-							<img src="image/mode6.png" alt="">
+							<div class="dui">✔</div>
 						</li>
 						<li class="kuai">
 							<p>银行卡支付</p>
-							<img src="image/mode5.png" alt="">
+							<div class="dui">✔</div>
 						</li>
 						<li class="kuai">
 							<p>其他支付方式</p>
-							<img src="image/mode6.png" alt="">
+							<div class="dui">✔</div>
 						</li>
 					</ul>
 				</li>
@@ -97,7 +97,19 @@
         hui.onclick=function(){
         	hui.css({
         		href: 'list2.html',
-        		
         	});
         }  
+        let dui=document.querySelectorAll(".dui");
+        console.log(dui);
+      
+        for(let i=0;i<dui.length;i++){
+        	dui[i].onclick=function(){
+        		for(let j=0;j<dui.length;j++){
+        			dui[j].style.color="#fff";
+        		}
+        		dui[i].style.color="blue";
+        	}
+        	
+        }
+
 </script>

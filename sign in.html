@@ -25,7 +25,7 @@
 				<img src="image/in1.png" alt="">
 				<div class="uear">
 					<input type="text" >
-					<img src="image/in5.png" alt="">
+					<img src="image/zhuci2.png" alt="" class="dui">
 				</div>
 				<p>(请输入手机号或账号)</p>
 			</div>
@@ -65,7 +65,8 @@
 	let input=document.querySelectorAll("input");
 	let go=document.querySelector(".in");
 	let img=document.querySelectorAll(".in10");
-	console.log(input,go,img);
+	let dui=document.querySelector(".dui");
+	console.log(dui);
 	go.onclick=function(){
 		if(input[0].value=="123456"  &&  input[1].value=="123456"){
 			go.href="index.html";
@@ -78,4 +79,9 @@
 	input[1].onblur=function(){
 		go.style.background="#fb9b29";
 	}
+	input[0].onblur=function(){
+				if (input[0].value=="123456") {
+        	dui.style.display="block";
+        	}
+        }
 </script>

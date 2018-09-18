@@ -175,12 +175,12 @@
 					<h5>蜜汁烤肉拌饭</h5>
 					<p>烤肉/番茄酱/青菜/胡椒粉..</p>
 					<div class="sec">
-						<img src="image/jian (2).png" alt="">
-						<span class="span1">2</span>
-						<img src="image/jia.png" alt="">
+						<img src="image/jian (2).png" alt="" class="img1">
+						<span class="span1 spa"></span>
+						<img src="image/jia.png" alt="" class="img2">
 					</div>
 					<div class="money">
-						<i>合计：<span>13.5</span></i>
+						<i>合计：<span class="span4">13.5</span></i>
 						<p>RMB</p>
 					</div>
 				</ul>
@@ -207,7 +207,8 @@
 	let footer=document.querySelector("footer");
 	console.log(footer);
 	list1.onmousedown=function () {
-		clear.style.display="block";
+		if (span1.innerHTML>12) {clear.style.display="block";}
+		
     }
     guan.onmousedown=function () {
 		clear.style.display="none";
@@ -224,6 +225,8 @@
 			span1.innerHTML=count*12.5;
 			cart.style.background="#ffc302";
 			footer.style.background="#fff";
+			span2.innerHTML = count;
+			span3.innerHTML=count*12.5;
 		}
 		tu1.onclick=function () {
 			count--;
@@ -234,16 +237,31 @@
                 list2.style.display="block";
                 list.style.display="none";
                 cart.style.background="#5d5151";
+              
 			}
             span.innerHTML=count;
             span1.innerHTML=count*12.5;
+              span2.innerHTML= count;
+        	span3.innerHTML=count*12.5;
     //         if(count==0){
 				// footer.style.display=("flex");
 				// change.style.display=("none");
 
     //         }
-          
-        
+        }
+        let img1=document.querySelector(".img1");
+        let img2=document.querySelector(".img2");
+        let span2=document.querySelector(".spa");
+        let span3=document.querySelector(".span4");
+        console.log(span2);
+        img2.onclick=function(){
+        	span2.innerHTML = ++count;
+        	span3.innerHTML=count*12.5;
+        }
+        img1.onclick=function(){
+        	if (count>0) {span2.innerHTML= --count;
+        	span3.innerHTML=count*12.5;}
+        	
         }
        let hui=document.querySelector("header .top .box"); 
 		console.log(hui);
